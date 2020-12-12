@@ -1,0 +1,15 @@
+.photoofme{
+    height: 40vmin;
+    border-radius: 5%;
+    margin: 0 10vh;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMeTwo{
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
