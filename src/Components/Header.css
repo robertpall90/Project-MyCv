@@ -1,24 +1,30 @@
 .Header {
     border-bottom: black 3px solid;
     height: 10vmin;
+    min-width: 700px;
+
 }
 
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 ul {
     list-style-type: none;
   }
 
 h2{
-    margin: 10px;
     font-family: "SEGA LOGO FONT";
     font-weight: 100;
     color: rgb(56, 56, 82);
+    text-shadow: 2px 2px darkgray;
 
-    margin: 20px 40px 20px 40px;
+    /* margin: 20px 40px 20px 40px; */
     
+}
+
+h2:hover{
+    transform: scale(1.2);
 }
 
 @font-face {

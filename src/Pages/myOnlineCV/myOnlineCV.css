@@ -1,0 +1,24 @@
+.tc{
+    margin-top: 5vh;
+}
+
+.photos{
+    height: 5vh;
+    border-radius: 50%;
+    margin: 2vh;
+}
+
+.paragraf{
+    margin-top: 0;
+    margin-left: 10vh;
+}
+
+.myPresentation{
+    display: flex;
+    justify-content: space-around;
+}
+.iframeContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
