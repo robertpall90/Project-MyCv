@@ -1,12 +1,12 @@
 import React from 'react';
 import "./MyOnlineCV.css";
-import logo1 from "./facultate.jpg";
-import logo2 from "./liceu.png";
-import logo3 from "./creanga.jpg"
-import logo4 from "./after.png";
-import logo5 from "./pepsi.jpeg"
-import logo6 from "./scoalaIT.jpeg"
-import logo7 from "./cluj.jpeg";
+import logo1 from "../../assets/facultate.jpg"
+import logo2 from "../../assets/liceu.png";
+import logo3 from "../../assets/creanga.jpg"
+import logo4 from "../../assets/after.png";
+import logo5 from "../../assets/pepsi.jpeg"
+import logo6 from "../../assets/scoalaIT.jpeg"
+import logo7 from "../../assets/cluj.jpeg";
 
 
 

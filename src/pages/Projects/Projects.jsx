@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Projects.css";
-import formValidation from "../../assersts/formValidation.png";
-import gameList from "../../assersts/gameList.png";
-import initialCV from "../../assersts/initialCV.png";
-import myIMDB from "../../assersts/myIMDB.png";
-import nasaPicture from "../../assersts/nasaPicture.png";
-import provocareFlex from "../../assersts/provocareFlex.png";
-import robofriends from "../../assersts/robofriends.png";
-import thePlayer from "../../assersts/thePlayer.png";
+import formValidation from "../../assets/formValidation.png";
+import gameList from "../../assets/gameList.png";
+import initialCV from "../../assets/initialCV.png";
+import myIMDB from "../../assets/myIMDB.png";
+import nasaPicture from "../../assets/nasaPicture.png";
+import provocareFlex from "../../assets/provocareFlex.png";
+import robofriends from "../../assets/robofriends.png";
+import thePlayer from "../../assets/thePlayer.png";
 
 
 function Projects() {
