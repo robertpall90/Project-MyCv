@@ -1,9 +1,9 @@
 import React from 'react';
-import CardList from '../../RoboComponents/CardList';
-import { robots } from '../../RoboComponents/robots';
-import SearchBox from '../../RoboComponents/SearchBox';
+import CardList from '../../roboComponents/CardList';
+import { robots } from '../../roboComponents/Robots';
+import SearchBox from '../../roboComponents/SearchBox';
 import "./RoboApp.css"
-import Scroll from "../../RoboComponents/Scroll";
+import Scroll from "../../roboComponents/Scroll";
 import "tachyons";
 
 

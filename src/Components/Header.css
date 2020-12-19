@@ -31,5 +31,5 @@ h2:hover{
     font-family: 'SEGA LOGO FONT';
     font-style: normal;
     font-weight: normal;
-    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+    src: local('SEGA LOGO FONT'), url('sega.woff') format('woff');
     }

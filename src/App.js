@@ -1,10 +1,11 @@
 import './App.css';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import AboutMe from "./Pages/aboutMe/aboutMe";
-import MyOnlineCV from "./Pages/myOnlineCV/myOnlineCV";
-import RoboApp from './Pages/showOff/RoboApp';
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import AboutMe from "./pages/AboutMe/AboutMe";
+import MyOnlineCV from "./pages/MyOnlineCV/MyOnlineCV";
+import RoboApp from './pages/ShowOff/RoboApp';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Projects from './pages/Projects/Projects';
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
         <div className="app">
           <Header />
           <Switch>
-
-            <Route path="/myonlinecv" component={MyOnlineCV} />
-            <Route path="/showoff" component={RoboApp} />
+            <Route path="/Myonlinecv" component={MyOnlineCV} />
+            <Route path="/Projects" component={Projects} />
+            <Route path="/Showoff" component={RoboApp} />
             <Route path="/" component={AboutMe} />
           </Switch>
 

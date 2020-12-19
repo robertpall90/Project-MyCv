@@ -12,8 +12,11 @@ function Header() {
                 <Link to="/myonlinecv">
                     <h2>My online CV</h2>
                 </Link>
+                <Link to="/projects">
+                    <h2>Projects</h2>
+                </Link>
                 <Link to="/showoff">
-                    <h2>RoboFriends / Show off :D</h2>
+                    <h2>play @ RoboFriends</h2>
                 </Link>
             </nav>
         </div>

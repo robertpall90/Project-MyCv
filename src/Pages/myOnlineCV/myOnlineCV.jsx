@@ -1,10 +1,12 @@
 import React from 'react';
-import "./myOnlineCV.css";
+import "./MyOnlineCV.css";
 import logo1 from "./facultate.jpg";
 import logo2 from "./liceu.png";
 import logo3 from "./creanga.jpg"
 import logo4 from "./after.png";
 import logo5 from "./pepsi.jpeg"
+import logo6 from "./scoalaIT.jpeg"
+import logo7 from "./cluj.jpeg";
 
 
 
@@ -17,14 +19,15 @@ function MyOnlineCV() {
 
                 <div className="generalInfo">
                     <h3 className="titles">General info</h3>
+                    <ul>
+                        <li>
+                            <img className="photos" src={logo6} alt="Scoala informala" />
+                            Web Development gr. 16</li>
+                        <li>
+                            <img className="photos" src={logo7} alt="Cluj" />
+                            Cluj-Napoca</li>
+                    </ul>
 
-                    <p> Web Development gr. 16<br></br>
-                30 ani<br></br>
-                Cluj-Napoca<br></br>
-                        <a href="tel:+0474872227">+40747872227</a><br></br>
-                        <a href="mailto:pallroberto90@gmail.com">Mail me! </a><br></br>
-                        <a href="https://github.com/robertpall90" target="_blank">https://github.com/robertpall90</a>
-                    </p>
                 </div>
 
                 <div className="education">
@@ -50,12 +53,14 @@ function MyOnlineCV() {
                     <ul>
                         <li>
                             <img className="photos" src={logo5} alt="Pepsi" />
-                        Pepsico</li>
-                        <p className="paragraf"> Business Development Representative</p>
+                        Pepsico  </li>
+                        <p className="paragraf"> Business Development Representative
+                        <br></br>2020 - Present</p>
                         <li>
                             <img className="photos" src={logo4} alt="After" />
                     After Eight-Cocktail Club</li>
-                        <p className="paragraf"> Manager Bar</p>
+                        <p className="paragraf"> Manager Bar
+                        <br></br> 2015 - 2020</p>
                     </ul>
                 </div>
             </div>

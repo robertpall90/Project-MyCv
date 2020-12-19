@@ -1,0 +1,15 @@
+.myProjects{
+    height:25vmin;
+    border-radius: 5%;
+    margin: 3vh 3vh;
+}
+.myProjects:hover{
+    transition-delay: 500ms;
+    transform: scale(2);
+}
+
+.photoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
