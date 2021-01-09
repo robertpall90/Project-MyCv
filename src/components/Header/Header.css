@@ -26,10 +26,3 @@ h2{
 h2:hover{
     transform: scale(1.2);
 }
-
-/* @font-face {
-    font-family: 'SEGA LOGO FONT';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SEGA LOGO FONT'), url('sega.woff') format('woff');
-    } */
