@@ -14,9 +14,7 @@ function MyOnlineCV() {
     return (
         <div>
             <h1 className="tc">Pall Robert-Ianos</h1>
-
             <div className="myPresentation">
-
                 <div className="generalInfo">
                     <h3 className="titles">General info</h3>
                     <ul>
@@ -27,9 +25,7 @@ function MyOnlineCV() {
                             <img className="photos" src={logo7} alt="Cluj" />
                             Cluj-Napoca</li>
                     </ul>
-
                 </div>
-
                 <div className="education">
                     <h3 className="titles">Educatie</h3>
                     <ul>
@@ -47,7 +43,6 @@ function MyOnlineCV() {
                         <p className="paragraf"> Clasele 1-8</p>
                     </ul>
                 </div>
-
                 <div className="work">
                     <h3 className="titles">Experienta profesionala</h3>
                     <ul>
@@ -70,7 +65,6 @@ function MyOnlineCV() {
                     <iframe width="500" height="300" src="https://scoalainformala.ro/" frameborder="yes"
                         scrolling="yes"></iframe>
                 </div>
-
                 <div className='iframeuri'>
                     <p class="titles">Party @ After Eight Cocktail Club</p>
                     <iframe name="iframeafter8" width="500" height="300" src="https://aftereight.ro/" frameborder="yes"
