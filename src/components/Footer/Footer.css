@@ -44,3 +44,11 @@ to {
 .contactDiv {
   display: inline-flex;
 }
+
+.contact:hover{
+  transform: scale(1.2);
+}
+
+.reactLogo:hover{
+transform:scale(1.0)
+}

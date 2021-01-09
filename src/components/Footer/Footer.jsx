@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/reactlogo.png';
+import logoGit from "../../assets/logoGitHub.png"
 
 
 function Footer() {
@@ -15,7 +16,7 @@ function Footer() {
                         <img alt="mailIcon" className="contact" src="https://assets.stickpng.com/images/584856a7e0bb315b0f7675aa.png"></img>
                     </a>
                     <a href="https://github.com/robertpall90" target="_blank" rel="noreferrer">
-                        <img alt="gitHubIcon" className="contact" src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png"></img>
+                        <img alt="gitHubIcon" className="contact" src={logoGit}></img>
                     </a>
                 </div>
             </div>
