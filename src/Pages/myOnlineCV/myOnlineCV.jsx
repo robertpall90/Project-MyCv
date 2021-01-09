@@ -62,12 +62,12 @@ function MyOnlineCV() {
             <div className="iframeContainer">
                 <div className='iframeuri'>
                     <p class="titles">Learn @ Scoala Informala de IT:</p>
-                    <iframe width="500" height="300" src="https://scoalainformala.ro/" frameborder="yes"
+                    <iframe title="webpage scoala informala" width="500" height="300" src="https://scoalainformala.ro/" frameborder="yes"
                         scrolling="yes"></iframe>
                 </div>
                 <div className='iframeuri'>
                     <p class="titles">Party @ After Eight Cocktail Club</p>
-                    <iframe name="iframeafter8" width="500" height="300" src="https://aftereight.ro/" frameborder="yes"
+                    <iframe title="webpage club after8" name="iframeafter8" width="500" height="300" src="https://aftereight.ro/" frameborder="yes"
                         scrolling="yes"></iframe>
                 </div>
             </div>

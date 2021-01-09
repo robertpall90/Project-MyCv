@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/reactlogo.png';
+import logo from '../../assets/reactlogo.png';
 
 
 function Footer() {
@@ -9,13 +9,13 @@ function Footer() {
             <div className="divLeft">
                 <div className="contactDiv">
                     <a href="tel:+0474872227">
-                        <img className="contact" src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-clip-art--royalty--7.png"></img>
+                        <img alt="telephoneIcon" className="contact" src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-clip-art--royalty--7.png"></img>
                     </a>
                     <a href="mailto:pallroberto90@gmail.com">
-                        <img className="contact" src="https://assets.stickpng.com/images/584856a7e0bb315b0f7675aa.png"></img>
+                        <img alt="mailIcon" className="contact" src="https://assets.stickpng.com/images/584856a7e0bb315b0f7675aa.png"></img>
                     </a>
-                    <a href="https://github.com/robertpall90" target="_blank">
-                        <img className="contact" src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png"></img>
+                    <a href="https://github.com/robertpall90" target="_blank" rel="noreferrer">
+                        <img alt="gitHubIcon" className="contact" src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png"></img>
                     </a>
                 </div>
             </div>
